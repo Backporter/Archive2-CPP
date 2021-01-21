@@ -1,6 +1,12 @@
 # Archive2-CPP
 C++ version of my Archive2 tool; Archive2-CPP, supports creating GNMF BA2's
 
+**Supported Platforms:**
+---------------------------------------------------------------------
+* Windows
+* Mac OS X(beta)
+* Linux(Soon*:tm:)
+
 **Usage:**
 ---------------------------------------------------------------------
 create a folder called "data", put textures and run Archive2-CPP.exe, either do it via CMD or double click it and let it do its magic, if should output a file called "COutput - Textures.ba2" if none is given, rename it to <espname - Textures.ba2>, and now you have a PS4 GNMF BA2
