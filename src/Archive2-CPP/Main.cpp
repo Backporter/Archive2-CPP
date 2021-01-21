@@ -172,7 +172,6 @@ int main(int argc, char **argv)
 		free(compressedgnfdata);
 		free(gnfdata);
 		fclose(GNFf);
-		free(&__File_Delecation);
 	}
 	fseek(BA2, strtableoffset, SEEK_SET);
 	for (const auto & enn : GNFs) {
