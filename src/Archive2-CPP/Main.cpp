@@ -45,6 +45,7 @@ typedef struct {
 	UINT PathHash;
 	BYTE unk = 0;
 	BYTE chunkcount{ 0x1 };
+	/* This is Suppose to be a Uint16_t(its suppose to have a value of 48(decimal) and 30 hex, it was easier to do this temporarily but i forgot to replace this this) */
 	BYTE chunksize[2]{ 0x30, 0x00 };
 	BYTE GNF_META[0x20];
 	uint64_t Offset;
